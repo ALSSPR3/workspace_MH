@@ -1,0 +1,11 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		int userNum1 = 1;
+		int userNum2 = 2;
+		
+		String roomname = userNum1 +"/" + userNum2;
+		System.out.println(roomname);
+	}
+}

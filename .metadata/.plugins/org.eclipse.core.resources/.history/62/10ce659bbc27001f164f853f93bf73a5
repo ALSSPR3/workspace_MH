@@ -1,0 +1,29 @@
+package ch03;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class UpdateExample {
+
+	public static void main(String[] args) {
+		
+		String url;
+		String user;
+		String password;
+		
+		// Connection 객체를 얻어서 insert 구문을 직접 만들어 보세요.
+		// mydb2 , employee 테이블에 값을 넣는 코드를 작성하세요.
+		
+		Connection connection = null;
+		PreparedStatement preparedStatement = null;
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			connection = D
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+}
